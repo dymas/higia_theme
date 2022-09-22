@@ -2,6 +2,9 @@
 @import "../bootstrap/functions";
 
 // 2. Include any default variable overrides here
+@import "./colors";
+@import "./fonts";
+@import "./buttons";
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../bootstrap/variables";
@@ -51,3 +54,7 @@
 @import "../bootstrap/utilities/api";
 
 // 8. Add additional custom code here
+.btn-primary {
+    --#{$prefix}btn-color: #FFFFFF;
+    --#{$prefix}btn-hover-color: #FFFFFF;
+}
