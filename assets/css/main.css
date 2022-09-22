@@ -53,7 +53,7 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-color-rgb: 87, 87, 87;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: "Mukta", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -62,7 +62,7 @@
   --bs-body-font-size: 1.1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #575757;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -2024,7 +2024,7 @@ progress {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #575757;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -2046,7 +2046,7 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #212529;
+  color: #575757;
   background-color: #fff;
   border-color: #fdb581;
   outline: 0;
@@ -2076,7 +2076,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
-  color: #212529;
+  color: #575757;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2092,7 +2092,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
-  color: #212529;
+  color: #575757;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2124,7 +2124,7 @@ progress {
   padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #212529;
+  color: #575757;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2220,7 +2220,7 @@ textarea.form-control-lg {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #575757;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2252,7 +2252,7 @@ textarea.form-control-lg {
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #212529;
+  text-shadow: 0 0 0 #575757;
 }
 
 .form-select-sm {
@@ -2617,7 +2617,7 @@ textarea.form-control-lg {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #575757;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -2868,7 +2868,7 @@ textarea.form-control-lg {
   --bs-btn-font-size: 1.1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
-  --bs-btn-color: #212529;
+  --bs-btn-color: #575757;
   --bs-btn-bg: transparent;
   --bs-btn-border-width: 1px;
   --bs-btn-border-color: transparent;
@@ -3318,7 +3318,7 @@ textarea.form-control-lg {
   --bs-dropdown-padding-y: 0.5rem;
   --bs-dropdown-spacer: 0.125rem;
   --bs-dropdown-font-size: 1.1rem;
-  --bs-dropdown-color: #212529;
+  --bs-dropdown-color: #575757;
   --bs-dropdown-bg: #fff;
   --bs-dropdown-border-color: var(--bs-border-color-translucent);
   --bs-dropdown-border-radius: 0.375rem;
@@ -4901,7 +4901,7 @@ textarea.form-control-lg {
   --bs-list-group-action-color: #495057;
   --bs-list-group-action-hover-color: #495057;
   --bs-list-group-action-hover-bg: #f8f9fa;
-  --bs-list-group-action-active-color: #212529;
+  --bs-list-group-action-active-color: #575757;
   --bs-list-group-action-active-bg: #e9ecef;
   --bs-list-group-disabled-color: #6c757d;
   --bs-list-group-disabled-bg: #fff;
@@ -5755,7 +5755,7 @@ textarea.form-control-lg {
   --bs-popover-header-bg: #f0f0f0;
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
-  --bs-popover-body-color: #212529;
+  --bs-popover-body-color: #575757;
   --bs-popover-arrow-width: 1rem;
   --bs-popover-arrow-height: 0.5rem;
   --bs-popover-arrow-border: var(--bs-popover-border-color);
