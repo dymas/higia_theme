@@ -23,6 +23,20 @@
   background-size: auto 900px;
 }
 
+.banner-background {
+  background-image: url(../images/fundo-ondas.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.bluecards {
+  margin-bottom: -6.3rem;
+}
+
+.banner {
+  padding: 10rem 0;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
