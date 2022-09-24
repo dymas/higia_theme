@@ -5,10 +5,11 @@
 @import "./colors";
 @import "./fonts";
 @import "./buttons";
-@import "./links";
-@import "./backgrounds";
 @import "./navbar";
-@import "./elements";
+@import "./header";
+@import "./hero";
+@import "./banner";
+@import "./bluecards";
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../bootstrap/variables";
