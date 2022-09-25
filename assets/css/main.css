@@ -23,6 +23,10 @@
   background-size: auto 900px;
 }
 
+.hero-title {
+  font-family: "Hammersmith One", sans-serif;
+}
+
 .banner {
   padding: 10rem 0;
 }
@@ -36,6 +40,18 @@
 
 .bluecards {
   margin-bottom: -6.3rem;
+}
+
+.products-background {
+  background-color: #1d1d1d;
+}
+
+.blackcards {
+  padding: 5rem 7rem;
+}
+
+.blackcards-background {
+  background-color: #3a3a3a;
 }
 
 :root {
@@ -143,7 +159,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Hammersmith One", sans-serif;
+  font-family: "Georama", sans-serif;
   font-weight: 500;
   line-height: 1.2;
 }
