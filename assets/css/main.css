@@ -54,6 +54,22 @@
   background-color: #3a3a3a;
 }
 
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer-background {
+  background-color: #292929;
+}
+
+.widget-text p {
+  margin-bottom: 0;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
