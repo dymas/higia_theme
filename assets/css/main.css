@@ -54,6 +54,11 @@
   background-color: #3a3a3a;
 }
 
+.page-background {
+  background: rgb(230, 248, 251);
+  background: linear-gradient(0deg, rgba(230, 248, 251, 0) 0%, rgba(230, 248, 251, 0.5430321787) 50%, rgba(230, 248, 251, 0.9688024868) 100%);
+}
+
 .footer a {
   color: #fff;
 }
