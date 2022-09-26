@@ -34,12 +34,11 @@
 .banner-background {
   background-image: url(../images/fundo-ondas.png);
   background-repeat: no-repeat;
-  background-size: 100%;
   background-position: right bottom -5rem;
 }
 
 .bluecards {
-  margin-bottom: -6.3rem;
+  margin-bottom: -6.7rem;
 }
 
 .products-background {
