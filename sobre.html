@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,65 +16,7 @@
 </head>
 
 <body>
-    <header class="page-background">
-        <section>
-            <div class="container-xxl">
-                <div class="row justify-content-between py-2">
-                    <div class="col-auto">
-                        <img src="./assets/images/telefone.png" class="me-2" width="20" alt="Telefone">
-                        <span>Perguntas? Entre em contato: <strong><a href="#" class="header-link">(86) 9 9999
-                                    9999</a></strong></span>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#" class="header-link">
-                            <img src="./assets/images/suporte.png" class="me-2" width="20" alt="Suporte">
-                            <span>Suporte</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-xxl">
-                <a class="navbar-brand" href="index.html">
-                    <img src="./assets/images/logohigia.png" width="90" alt="Higia">
-                </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                    aria-controls="navbar" aria-expanded="false" aria-label="Alternar navegação">
-                    <span class="navbar-toggler-icon"></span>
-                    Menu
-                </button>
-
-                <div id="navbar" class="collapse navbar-collapse justify-content-center">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
-                                role="button" href="#">
-                                Soluções
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Apollo Viewer</a></li>
-                                <li><a class="dropdown-item" href="#">HigIA Report</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Saiba mais</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" href="sobre.html">Sobre Nós</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-auto">
-                    <button type="button" class="btn btn-primary">Entre em contato</button>
-                </div>
-            </div>
-        </nav>
-    </header>
+    {% include navigation.html %}
 
     <main class="mt-5">
         <header class="container-xxl mb-5">
