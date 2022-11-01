@@ -1,9 +1,15 @@
+@media screen and (min-width: 992px) {
+    .banner {
+        margin-top: 15rem;
+    }
+}
+
 .banner {
     padding: 10rem 0;
 }
 
 .banner-background {
     background-image: url(../images/fundo-ondas.png);
-    background-repeat: no-repeat;
-    background-position: right bottom -5rem;
+    background-position: bottom;
+    background-size: cover;
 }

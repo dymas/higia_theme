@@ -1,5 +1,8 @@
-.bluecards {
-    margin-bottom: -6.7rem;
+@media screen and (min-width: 992px) {
+    .bluecards {
+        position: absolute;
+        width: 100%;
+    }
 }
 
 .bluecards-title--white {
