@@ -19,25 +19,27 @@
     {% include navigation.html %}
 
     <main class="mt-5">
-        <header class="container-xxl mb-5">
-            <div class="row justify-content-between align-items-end">
-                <div class="col-md-4">
-                    <div class="col-4">
-                        <hr class="border border-primary border-5 opacity-100 animate__animated animate__fadeInUp">
+        <header class="mb-5">
+            <div class="container-xxl">
+                <div class="row justify-content-around align-items-end">
+                    <div class="col-md-4">
+                        <div class="col-4">
+                            <hr class="border border-primary border-5 opacity-100 animate__animated animate__fadeInUp">
+                        </div>
+                        <h2 class="text-black animate__animated animate__fadeIn">{{ page.title }}</h2>
+                        <p class="h5 animate__animated animate__fadeIn">
+                            {{ page.description }}
+                        </p>
                     </div>
-                    <h2 class="text-black animate__animated animate__fadeIn">{{ page.title }}</h2>
-                    <p class="h5 animate__animated animate__fadeIn">
-                        {{ page.description }}
-                    </p>
-                </div>
-                <div class="col-md-7">
-                    <img src="{{ page.img | relative_url }}" style="max-width: 100%;"
-                        class="animate__animated animate__fadeIn" alt="Higia">
+                    <div class="col-md-7">
+                        <img src="{{ page.img | relative_url }}" style="max-width: 100%;"
+                            class="animate__animated animate__fadeIn" alt="Higia">
+                    </div>
                 </div>
             </div>
         </header>
 
-        <div class="container-xxl">
+        <div class="container-xxl d-flex justify-content-center">
             <article class="pagina-texto animate__animated animate__fadeIn">
                 {{ content }}
             </article>
