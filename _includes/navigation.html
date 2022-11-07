@@ -10,7 +10,7 @@
           </strong>
         </div>
         <div class="col-auto">
-          <a href="#" class="header-link">
+          <a href="mailto:contato@higiatec.com.br" class="header-link">
             <img src="{{ '/assets/images/suporte.png' | relative_url }}" class="me-2" width="20" alt="Suporte">
             <span>Suporte</span>
           </a>
@@ -42,11 +42,11 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="#">PACS Apollo</a>
+                <a class="dropdown-item" href="{{ '/solucoes#apollo' | relative_url }}">PACS Apollo</a>
 
               </li>
               <li>
-                <a class="dropdown-item" href="#">HigIA Report</a>
+                <a class="dropdown-item" href="{{ '/solucoes#report' | relative_url }}">HigIA Report</a>
               </li>
               <li>
                 <hr class="dropdown-divider">
@@ -57,7 +57,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/sobre' | relative_url }}">Sobre Nós</a>
+            <a class="nav-link {% if page.url == '/sobre/' %}active{% endif %}" href="{{ '/sobre/' | relative_url }}">Sobre Nós</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>

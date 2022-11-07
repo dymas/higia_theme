@@ -78,11 +78,6 @@
   color: var(--bs-primary);
 }
 
-.pagina-texto blockquote {
-  margin: 4rem;
-  text-align: center;
-}
-
 .footer a {
   color: #fff;
 }
